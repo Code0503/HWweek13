@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suit" parallel="tests" thread-count="2">
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.tutorialninja.testsuite.DesktopsTest"></class>
+            <class name="com.tutorialninja.testsuite.LaptopsAndNotebooksTest"></class>
+            <class name="com.tutorialninja.testsuite.TopMenuTest"></class>
+            <class name="com.tutorialninja.testsuite.MyAccountTest"></class>
+        </classes>
+    </test>
+    <test name="FireFox Test">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.tutorialninja.testsuite.DesktopsTest"></class>
+            <class name="com.tutorialninja.testsuite.LaptopsAndNotebooksTest"></class>
+            <class name="com.tutorialninja.testsuite.TopMenuTest"></class>
+            <class name="com.tutorialninja.testsuite.MyAccountTest"></class>
+        </classes>
+    </test>
+</suite>

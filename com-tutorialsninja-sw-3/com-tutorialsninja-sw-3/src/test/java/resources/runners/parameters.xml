@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <test name="TopMenu Test">
+        <parameter name="menuName" value="Desktops"></parameter>
+        <parameter name="menuItemName" value="Show AllDesktops"></parameter>
+        <parameter name="menu2" value="Components"></parameter>
+        <parameter name="menuItem2" value="Show AllComponents"></parameter>
+
+
+        <classes>
+            <class name="com.tutorialninja.testsuite.TopMenuTest"></class>
+        </classes>
+    </test>
+</suite>
