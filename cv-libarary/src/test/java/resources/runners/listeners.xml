@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="uk.co.library.testng.TestNGListeners"></listener>
+    </listeners>
+    
+    <test name="Login test">
+        <classes>
+            <class name="uk.co.library.testsuite.JobSearchTest"></class>
+            <class name="uk.co.library.testsuite.JobSearchTest2"></class>
+        </classes>
+    </test>
+
+</suite>

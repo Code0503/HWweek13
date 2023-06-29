@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <test name="JobSearch Test">
+        <parameter name="jobTitle" value="QA"></parameter>
+        <parameter name="location" value="Northamptonshire"></parameter>
+        <parameter name="distance" value="10 miles"></parameter>
+        <parameter name="minSalary" value="20000"></parameter>
+        <parameter name="maxSalary" value="400000"></parameter>
+        <parameter name="salaryType" value="Per annum"></parameter>
+        <parameter name="jobType" value="Permanent"></parameter>
+        <classes>
+            <class name="uk.co.library.testsuite.JobSearchTest3"></class>
+        </classes>
+    </test>
+</suite>
